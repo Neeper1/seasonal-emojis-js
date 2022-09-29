@@ -1,0 +1,115 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background: #93b1a7;
+}
+
+h1 {
+    text-shadow: 0 0 1px #000;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    background-color: #766153;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #dd9787;
+}
+
+
+input {
+    margin: 0 auto 30px;
+    padding: 15px;
+    display: block;
+    border: none;
+    height: 40px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 26px;
+}
+
+input::placeholder {
+    color: #DBDBDB;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+button:hover {
+    background-color: #fff;
+    border-color: transparent;
+    color: #444;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px 30px 20px;
+    
+}
+
+#summer-btn {
+    background: #f4e409;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 36px;
+    text-shadow: 0 0 2px #000;
+}
+
+#fall-btn {
+    background: #d08359;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 36px;
+    text-shadow: 0 0 2px #000;
+}
+
+#winter-btn {
+    background: #26547c;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 36px;
+    text-shadow: 0 0 2px #000;
+}
+
+#spring-btn {
+    background: #9ee493;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 36px;
+    text-shadow: 0 0 2px #000;
+}
+
